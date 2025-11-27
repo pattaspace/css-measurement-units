@@ -1,1 +1,48 @@
 /* Start coding here */
+/* รีเซ็ตค่าพื้นฐาน */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* ป้องกันขอบขาวเกินมา */
+    margin: 0; 
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+/* --- กล่องหลักสีเทา --- */
+.container {
+    background-color: lightgrey;
+    
+    /* โจทย์: ความสูงเต็ม Viewport */
+    height: 100vh; 
+    
+    /* โจทย์: padding 50px */
+    padding: 50px; 
+}
+
+/* --- กล่องลูกทั้ง 3 --- */
+
+/* โจทย์: 1/4 ส่วนของกล่องสีเทา = 25% */
+.box-1 {
+    background-color: orange;
+    height: 25%; 
+    padding: 5px; /* เว้นระยะตัวหนังสือหน่อย (ใส่หรือไม่ใส่ก็ได้) */
+}
+
+/* โจทย์: 1/4 ส่วนของกล่องสีเทา = 25% */
+.box-2 {
+    background-color: khaki;
+    height: 25%;
+    padding: 5px;
+}
+
+/* โจทย์: 1/2 ส่วนของกล่องสีเทา = 50% */
+.box-3 {
+    background-color: cornflowerblue;
+    height: 50%;
+    padding: 5px;
+}
